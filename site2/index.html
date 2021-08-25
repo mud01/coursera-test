@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TP bootstrap 5</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">TP Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Inactif</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Se connecter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn btn-success">S'inscrire</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="header text-center p-5">
+        <div class="container">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste sint perferendis. Pariatur,
+                magni odio!
+            </span>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Souscrire</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog text-dark">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="tooltip" data-bs-placement="top" title="Fermer"></button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore soluta assumenda cumque cum doloremque reprehenderit libero, debitis at nesciunt error vero praesentium quasi vel voluptatum aliquam dolore dicta blanditiis fuga.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-page py-5">
+        <div class="container">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <img src="assets/img/repas12.jpg" class="img-fluid" alt="Photo de repas">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+                    <p class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim labore dolorem non
+                        ipsa voluptas
+                        necessitatibus vitae placeat id libero sint dignissimos, magni accusantium, expedita quam
+                        voluptate, adipisci corporis fugit. Natus.
+                        Deleniti minima doloremque officia modi inventore porro iure sapiente debitis ipsa similique,
+                        pariatur laudantium animi reprehenderit enim! Consequuntur nam aliquam eveniet amet quia,
+                        blanditiis ipsam hic itaque soluta. Ut, blanditiis!</p>
+                    <form class="p-5">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Adresse email"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <button class="input-group-text btn btn-primary">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
